@@ -8,6 +8,10 @@ export default {
     extend: {
       fontFamily:{
         "lato":['Lato',"sans-serif"]
+      },
+      gridTemplateColumns:{
+        "two":"auto auto"
+
       }
     },
   },
