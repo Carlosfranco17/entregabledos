@@ -36,23 +36,23 @@ const Weather = ({ weather,temp }) => {
       
 
       <section>
-        <article className="bg-slate-300/70 rounded-3xl grid grid-cols-3 justify-center justify-items-stretch mt-2 py-2 sm:block sm:py-[66px] sm:px-2 p-2 gap-3">
+        <article className="bg-slate-300/70 rounded-3xl grid grid-cols-3 justify-center justify-items-stretch mt-2 py-2 sm:block sm:py-[66px] sm:px-2 p-2 gap-3 h-full">
 
-          <div className="flex text-[ms] justify-between items-center"> 
+          <div className="flex text-[ms] justify-center items-center"> 
             <div >
               <img className="m-2 w-5 " src="/image/viento.png" alt="" />
             </div>
             <h5 className="text-[13px] ">{weather.wind.speed} m/s</h5>
           </div>
 
-          <div  className="flex text-sm  justify-between items-center">
+          <div  className="flex text-sm  justify-center items-center">
             <div>
               <img className="m-2 w-5 " src="/image/gotas.png" alt="" />
             </div>
             <h5 className="text-[13px]">{(weather.wind.deg)/10} %</h5>
           </div>
 
-          <div  className="flex text-sm justify-between items-center">
+          <div  className="flex text-sm justify-center items-center">
             <div>
               <img className="m-2 w-5" src="/image/arrow.png" alt="" />
             </div>
