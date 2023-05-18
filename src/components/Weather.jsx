@@ -40,21 +40,21 @@ const Weather = ({ weather,temp }) => {
 
           <div className="flex text-[ms] justify-between items-center"> 
             <div >
-              <img className="m-2 w-5 " src="./public/image/viento.png" alt="" />
+              <img className="m-2 w-5 " src="/image/viento.png" alt="" />
             </div>
             <h5 className="text-[13px] ">{weather.wind.speed} m/s</h5>
           </div>
 
           <div  className="flex text-sm  justify-between items-center">
             <div>
-              <img className="m-2 w-5 " src="./public/image/gotas.png" alt="" />
+              <img className="m-2 w-5 " src="/image/gotas.png" alt="" />
             </div>
             <h5 className="text-[13px]">{(weather.wind.deg)/10} %</h5>
           </div>
 
           <div  className="flex text-sm justify-between items-center">
             <div>
-              <img className="m-2 w-5" src="./public/image/arrow.png" alt="" />
+              <img className="m-2 w-5" src="/image/arrow.png" alt="" />
             </div>
             <h5 className="text-[13px]">{weather.wind.gust} hpa</h5>
           </div>
